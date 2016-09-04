@@ -1,0 +1,25 @@
+{
+  "name": "nunjucks-widgets",
+  "version": "0.0.1",
+  "description": "A Mechanism for creating re-usable widgets using nunjucks templating engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harish2704/nunjucks-widgets.git"
+  },
+  "keywords": [
+    "nunjucks",
+    "widgets",
+    "jinja",
+    "jinja2"
+  ],
+  "author": "Harish.K <harish2704@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harish2704/nunjucks-widgets/issues"
+  },
+  "homepage": "https://github.com/harish2704/nunjucks-widgets#readme"
+}
