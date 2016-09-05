@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/harish2704/nunjucks-widgets/issues"
   },
-  "homepage": "https://github.com/harish2704/nunjucks-widgets#readme"
+  "homepage": "https://github.com/harish2704/nunjucks-widgets#readme",
+  "dependencies": {
+    "nunjucks-append": "https://github.com/harish2704/nunjucks-append/archive/d941fea0d9e33c5bb967955fc8d9d764d3dc5365.tar.gz"
+  }
 }
