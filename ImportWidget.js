@@ -1,4 +1,5 @@
 var nodes = require('nunjucks/src/nodes');
+var path = require('path');
 
 module.exports = function ImportWidget( source ){
   this.source = source;

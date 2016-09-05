@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/harish2704/nunjucks-widgets#readme",
   "dependencies": {
-    "nunjucks-append": "https://github.com/harish2704/nunjucks-append/archive/d941fea0d9e33c5bb967955fc8d9d764d3dc5365.tar.gz"
+    "nunjucks-append": "https://github.com/harish2704/nunjucks-append/archive/ff655514c541fb870eb74cadf51c0a2d755711ee.tar.gz"
   }
 }
