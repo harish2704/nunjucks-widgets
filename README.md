@@ -91,3 +91,5 @@ console.log( out );
 ```
 
 
+## Credits
+* @faceleg for [ nunjucks-append ](https://github.com/faceleg/nunjucks-append) module
