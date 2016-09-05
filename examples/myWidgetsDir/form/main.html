@@ -1,0 +1,18 @@
+<!-- myWidgetsDir/form/main.html -->
+
+{% macro main( actionName, id, class="default" ) %}
+  {% importWidget 'input' %}
+
+  <form action="" method="get" id="{{id}}">
+    {% widget input( 'email', 'Email', 'str-email' ) %}
+    {% widget input( 'username', 'Email', 'str-username' ) %}
+
+    <button type="submit" class="btn btn-{{class}}">{{actionName}}</button>
+  </form>
+
+
+  {% inject 'head' %}
+  Injected from form
+  {% endinject %}
+
+  {% endmacro %}

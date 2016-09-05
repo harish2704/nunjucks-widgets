@@ -1,0 +1,9 @@
+<!-- myWidgetsDir/label/main.html -->
+
+{% macro main( name, for ) %}
+<label for="{{for}}" >{{ name }}</label>
+  {% inject 'head' %}
+  Injected from label
+  {% endinject %}
+{% endmacro %}
+

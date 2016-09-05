@@ -1,0 +1,17 @@
+<!-- myWidgetsDir/input/main.html -->
+
+{% macro main( name, label, id, class="input" ) %}
+  {% importWidget 'label' %}
+
+  <div class="form-group {{ class }}">
+    {#  {% widget label( label, id ) %}  #}
+    {{ label.main( label, id ) }}
+    <input type="{{type}}" class="form-control" placeholder="{{label}}" id="{{id}}">
+  </div>
+
+  {% inject 'head' %}
+  Injected from input
+  {% endinject %}
+
+{% endmacro %}
+

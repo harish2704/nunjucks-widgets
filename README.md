@@ -19,9 +19,9 @@ npm i https://github.com/harish2704/nunjucks-widgets/archive/master.tar.gz
 
 {% widget form( 'Click Me', 'form-id') %}
 
-{% output 'head' %}
+{% injected 'head' %}
   Content of main head
-{% endoutput %}
+{% endinjected %}
 
 ```
 
