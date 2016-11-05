@@ -17,7 +17,7 @@ module.exports = function ImportWidget( source ){
     widgetName = parser.parseExpression();
     widgetAs = new nodes.Literal( tok.lineno, tok.colno, widgetName.value );
     widgetName.value = path.join( this.source, widgetName.value, 'main.html' );
-    node = new nodes.Import( tok.lineno,  tok.colno, widgetName, widgetAs, null );
+    node = new nodes.Import( tok.lineno,  tok.colno, widgetName, widgetAs, true );
 
     parser.advanceAfterBlockEnd( tok.value );
     return node;
